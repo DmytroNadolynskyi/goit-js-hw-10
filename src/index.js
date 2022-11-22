@@ -5,7 +5,7 @@ import { fetchCountries } from './fetchCountries';
 import templatesCountries from './templates/Countries.hbs';
 import templatesOneCountry from './templates/Country.hbs';
 
-const DEBOUNCE_DELAY = 500;
+const DEBOUNCE_DELAY = 300;
 const input = document.querySelector('#search-box');
 const countryList = document.querySelector('.country-list');
 const countryInfo = document.querySelector('.country-info');
